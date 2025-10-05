@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.vxapp.sdk.http.sdk-http-merged_res-8:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.vxapp.sdk.http.sdk-http-core-1.10.1-0:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.vxapp.sdk.http.sdk-http-merged_res-8:/layout-v21/notification_action.xml",
+        "source": "com.vxapp.sdk.http.sdk-http-core-1.10.1-0:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.vxapp.sdk.http.sdk-http-merged_res-8:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.vxapp.sdk.http.sdk-http-core-1.10.1-0:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.vxapp.sdk.http.sdk-http-merged_res-8:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.vxapp.sdk.http.sdk-http-core-1.10.1-0:/layout-v21/notification_template_icon_group.xml"
+    }
+]

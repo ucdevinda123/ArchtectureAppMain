@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.2" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;SDK Demo&quot;, should use `@string` resource">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*resDir*0}/layout/fragment_simple_sdk.xml"
+            line="12"
+            column="9"
+            startOffset="397"
+            endLine="12"
+            endColumn="32"
+            endOffset="420"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter some text:&quot;, should use `@string` resource">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*resDir*0}/layout/fragment_simple_sdk.xml"
+            line="29"
+            column="13"
+            startOffset="964"
+            endLine="29"
+            endColumn="44"
+            endOffset="995"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*resDir*0}/layout/fragment_simple_sdk.xml"
+            line="33"
+            column="10"
+            startOffset="1091"
+            endLine="33"
+            endColumn="18"
+            endOffset="1099"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Type something here...&quot;, should use `@string` resource">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*resDir*0}/layout/fragment_simple_sdk.xml"
+            line="37"
+            column="13"
+            startOffset="1250"
+            endLine="37"
+            endColumn="50"
+            endOffset="1287"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Submit&quot;, should use `@string` resource">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*resDir*0}/layout/fragment_simple_sdk.xml"
+            line="45"
+            column="13"
+            startOffset="1545"
+            endLine="45"
+            endColumn="34"
+            endOffset="1566"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Ready to process your input&quot;, should use `@string` resource">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*resDir*0}/layout/fragment_simple_sdk.xml"
+            line="53"
+            column="9"
+            startOffset="1741"
+            endLine="53"
+            endColumn="51"
+            endOffset="1783"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="56"
+            column="36"
+            startOffset="1705"
+            endLine="56"
+            endColumn="58"
+            endOffset="1727"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="62"
+            column="32"
+            startOffset="1932"
+            endLine="62"
+            endColumn="45"
+            endOffset="1945"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="70"
+            column="36"
+            startOffset="2237"
+            endLine="70"
+            endColumn="44"
+            endOffset="2245"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="72"
+            column="35"
+            startOffset="2351"
+            endLine="72"
+            endColumn="54"
+            endOffset="2370"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="72"
+            column="36"
+            startOffset="2352"
+            endLine="72"
+            endColumn="47"
+            endOffset="2363"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="80"
+            column="36"
+            startOffset="2621"
+            endLine="80"
+            endColumn="62"
+            endOffset="2647"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="84"
+            column="36"
+            startOffset="2817"
+            endLine="84"
+            endColumn="68"
+            endOffset="2849"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="88"
+            column="35"
+            startOffset="3006"
+            endLine="88"
+            endColumn="112"
+            endOffset="3083"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="88"
+            column="36"
+            startOffset="3007"
+            endLine="88"
+            endColumn="43"
+            endOffset="3014"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:sdk-ui*debug*sourceProvider*0*javaDir*0}/com/vxapp/sdk/ui/SimpleSdkFragment.kt"
+            line="92"
+            column="36"
+            startOffset="3242"
+            endLine="92"
+            endColumn="46"
+            endOffset="3252"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.fragment:fragment-ktx than 1.6.2 is available: 1.8.9">
+        <fix-replace
+            description="Change to 1.8.9"
+            family="Update versions"
+            oldString="1.6.2"
+            replacement="1.8.9"/>
+        <location
+            file="${:sdk-ui*projectDir}/build.gradle"
+            line="61"
+            column="20"
+            startOffset="1623"
+            endLine="61"
+            endColumn="58"
+            endOffset="1661"/>
+    </incident>
+
+</incidents>

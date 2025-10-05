@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable/notification_bg.xml",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable/notification_icon_background.xml",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable/notification_tile_bg.xml",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable/notification_bg_low.xml",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable/notification_bg_low.xml"
+    }
+]

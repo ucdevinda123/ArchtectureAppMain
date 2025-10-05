@@ -1,0 +1,8 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vxapp.sdk.http" >
+4
+5    <uses-sdk android:minSdkVersion="28" />
+5-->/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-http/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2653243137018986955.xml
+6
+7</manifest>

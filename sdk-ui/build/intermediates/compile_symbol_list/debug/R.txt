@@ -1,0 +1,5 @@
+int id input_text 0x0
+int id result_text 0x0
+int id status_text 0x0
+int id submit_button 0x0
+int layout fragment_simple_sdk 0x0

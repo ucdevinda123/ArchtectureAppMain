@@ -1,0 +1,6 @@
+com.vxapp.sdk.ui
+id input_text
+id result_text
+id status_text
+id submit_button
+layout fragment_simple_sdk

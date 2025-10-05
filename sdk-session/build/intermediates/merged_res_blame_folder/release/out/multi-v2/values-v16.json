@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.vxapp.sdk.session.sdk-session-merged_res-18:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/chinthakadevinda/.gradle/caches/transforms-3/291e3f333ed300c5a7c8bc80c8db246c/transformed/core-1.10.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.vxapp.sdk.session.sdk-session-mergeReleaseResources-16:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/chinthakadevinda/.gradle/caches/transforms-3/291e3f333ed300c5a7c8bc80c8db246c/transformed/core-1.10.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

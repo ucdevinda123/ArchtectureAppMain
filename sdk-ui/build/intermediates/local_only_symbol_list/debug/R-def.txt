@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+id input_text
+id result_text
+id status_text
+id submit_button
+layout fragment_simple_sdk

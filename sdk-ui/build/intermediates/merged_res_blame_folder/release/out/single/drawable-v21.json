@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable-v21/notification_action_background.xml",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable-v21/notification_action_background.xml"
+    }
+]

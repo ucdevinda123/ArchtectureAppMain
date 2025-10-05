@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable-xxxhdpi-v4/ic_call_answer_video_low.png",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable-xxxhdpi-v4/ic_call_answer_video_low.png"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable-xxxhdpi-v4/ic_call_answer_video.png",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable-xxxhdpi-v4/ic_call_answer_video.png"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable-xxxhdpi-v4/ic_call_decline_low.png",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable-xxxhdpi-v4/ic_call_decline_low.png"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable-xxxhdpi-v4/ic_call_decline.png",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable-xxxhdpi-v4/ic_call_decline.png"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable-xxxhdpi-v4/ic_call_answer.png",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable-xxxhdpi-v4/ic_call_answer.png"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/drawable-xxxhdpi-v4/ic_call_answer_low.png",
+        "source": "com.vxapp.sdk.ui.sdk-ui-core-1.10.1-7:/drawable-xxxhdpi-v4/ic_call_answer_low.png"
+    }
+]

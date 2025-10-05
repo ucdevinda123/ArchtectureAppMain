@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/color/vector_tint_color.xml",
+        "source": "com.vxapp.sdk.ui.sdk-ui-ui-1.4.0-12:/color/vector_tint_color.xml"
+    },
+    {
+        "merged": "com.vxapp.sdk.ui.sdk-ui-merged_res-50:/color/vector_tint_theme_color.xml",
+        "source": "com.vxapp.sdk.ui.sdk-ui-ui-1.4.0-12:/color/vector_tint_theme_color.xml"
+    }
+]

@@ -1,0 +1,110 @@
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/build.gradle:61: Warning: A newer version of androidx.fragment:fragment-ktx than 1.6.2 is available: 1.8.9 [GradleDependency]
+    implementation 'androidx.fragment:fragment-ktx:1.6.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/res/layout/fragment_simple_sdk.xml:33: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:56: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                statusText.text = "Please enter some text"
+                                   ~~~~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:62: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            statusText.text = "Processing..."
+                               ~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:70: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                statusText.text = "Success!"
+                                   ~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:72: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                resultText.text = "Processed: $input"
+                                  ~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:72: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                resultText.text = "Processed: $input"
+                                   ~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:80: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                statusText.text = "Ready - User authenticated"
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:84: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                statusText.text = "Please login to use this feature"
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:88: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                statusText.text = "Error: ${(sessionManager.sessionState.value as SessionState.Error).message}"
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:88: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                statusText.text = "Error: ${(sessionManager.sessionState.value as SessionState.Error).message}"
+                                   ~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/java/com/vxapp/sdk/ui/SimpleSdkFragment.kt:92: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                statusText.text = "Loading..."
+                                   ~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/res/layout/fragment_simple_sdk.xml:12: Warning: Hardcoded string "SDK Demo", should use @string resource [HardcodedText]
+        android:text="SDK Demo"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/res/layout/fragment_simple_sdk.xml:29: Warning: Hardcoded string "Enter some text:", should use @string resource [HardcodedText]
+            android:text="Enter some text:"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/res/layout/fragment_simple_sdk.xml:37: Warning: Hardcoded string "Type something here...", should use @string resource [HardcodedText]
+            android:hint="Type something here..."
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/res/layout/fragment_simple_sdk.xml:45: Warning: Hardcoded string "Submit", should use @string resource [HardcodedText]
+            android:text="Submit" />
+            ~~~~~~~~~~~~~~~~~~~~~
+/Users/chinthakadevinda/Projects/ArchtectureAppMain/sdk-ui/src/main/res/layout/fragment_simple_sdk.xml:53: Warning: Hardcoded string "Ready to process your input", should use @string resource [HardcodedText]
+        android:text="Ready to process your input"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 17 warnings
